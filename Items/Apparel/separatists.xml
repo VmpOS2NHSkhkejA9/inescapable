@@ -230,19 +230,19 @@
 		
 		<Item name="" description="" identifier="scp_renegadecaptainhat" subcategory="Renegade" category="Equipment" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" scale="0.4">
 
-				<Sprite texture="%ModDir%/Sprites/Items/Apparel/helmets.png" depth="0.6" sourcerect="246,179,83,48" origin="0.5,0.5" />
+			<Sprite texture="%ModDir%/Sprites/Items/Apparel/helmets.png" depth="0.6" sourcerect="246,179,83,48" origin="0.5,0.5" />
 
-				<Body width="75" height="40" density="30" />
+			<Body width="75" height="40" density="30" />
 
-				<Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
+			<Wearable limbtype="Head" slots="Any,Head" msg="ItemMsgPickUpSelect">
 
-						<sprite name="rencaphatwear" texture="%ModDir%/Sprites/Items/Apparel/helmets.png" limb="Head" hidewearablesoftype="Hair" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.7" hidelimb="false" sourcerect="246,179,83,48" origin="0.55,1.1" />
-						
-						<SkillModifier skillidentifier="helm" skillvalue="5" />
-					 
-						<damagemodifier afflictionidentifiers="lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.75" />
+				<sprite name="rencaphatwear" texture="%ModDir%/Sprites/Items/Apparel/helmets.png" limb="Head" hidewearablesoftype="Hair" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.7" hidelimb="false" sourcerect="246,179,83,48" origin="0.55,1.1" />
 				
-				</Wearable>
+				<SkillModifier skillidentifier="helm" skillvalue="5" />
+
+				<damagemodifier afflictionidentifiers="lacerations,gunshotwound" armorsector="0.0,360.0" damagemultiplier="0.75" />
+			
+			</Wearable>
 
 		</Item>
 
@@ -271,7 +271,7 @@
 
 		<!--###-->
 
-		<Item name="" identifier="scp_yuihelmet" category="Equipment" subcategory="Renegade" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.4">
+	<Item name="" identifier="scp_yuihelmet" category="Equipment" subcategory="Renegade" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.4">
 
 		<Sprite name="Spec Ops Helmet" texture="%ModDir%/Sprites/Items/Apparel/helmets.png" sourcerect="429,668,99,89" depth="0.6" origin="0.5,0.5" />
 		<InventoryIcon name="specopsinv" texture="%ModDir%/Sprites/Items/Apparel/helmets.png" sourcerect="549,662,60,60" origin="0.5,0.5" />
