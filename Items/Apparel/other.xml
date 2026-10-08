@@ -3,7 +3,7 @@
 		<!--++++++++++++++++++++++++++++++++++++-->
 		<!--Helmets-->
 
-	<Item name="" identifier="scp_clownbatmask" category="Equipment" subcategory="Clown" tags="smallitem,clothing,clownmask,clowns" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.4">
+	<Item name="" identifier="helmet_clown_combat" category="Equipment" subcategory="Clown" tags="smallitem,clothing,clownmask,clowns" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.4">
 
 		<Sprite name="Clownbat Helm" texture="%ModDir%/Sprites/Items/Apparel/helmets.png" sourcerect="423,446,100,102" depth="0.6" origin="0.5,0.5" />
 

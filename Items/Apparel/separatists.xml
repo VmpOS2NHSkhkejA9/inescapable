@@ -44,7 +44,7 @@
 		
 		<!--###-->
 		
-		<Item name="" identifier="scp_renegadevest" category="Equipment" subcategory="Renegade" tags="smallitem,clothing,vest" scale="0.5" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
+		<Item name="" identifier="armor_renegade_light" category="Equipment" subcategory="Renegade" tags="smallitem,clothing,vest" scale="0.5" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_soft">
 
 				<InventoryIcon name="tacvestinv" texture="%ModDir%/Sprites/Items/Apparel/renegadevest.png" sourcerect="88,34,77,75" origin="0.5,0.5" />
 				<Sprite name="Renegade Vest Item" texture="%ModDir%/Sprites/Items/Apparel/renegadevest.png" sourcerect="0,6,76,103" depth="0.6" origin="0.5,0.5" />
@@ -305,7 +305,7 @@
 
 		<!--###-->
 
-		<Item name="" identifier="scp_livhelmet" category="Equipment" subcategory="Renegade" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.4">
+		<Item name="" identifier="helmet_renegade_superheavy" category="Equipment" subcategory="Renegade" tags="smallitem,clothing" cargocontaineridentifier="metalcrate" description="" impactsoundtag="impact_metal_heavy" scale="0.4">
 
 		<Sprite name="Vanguard Helmet" texture="%ModDir%/Sprites/Items/Apparel/helmets.png" sourcerect="430,561,97,98" depth="0.6" origin="0.5,0.5" />
 		<InventoryIcon name="vanguardinv" texture="%ModDir%/Sprites/Items/Apparel/helmets.png" sourcerect="549,599,60,60" origin="0.5,0.5" />
