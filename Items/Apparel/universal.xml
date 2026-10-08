@@ -153,7 +153,7 @@
 		
 		<!--Backpacks-->
 		
-		<Item name="" identifier="backpack_medium" scale="0.6" category="Equipment" subcategory="Coalition" tags="mediumitem,toolbelt,toolbox,mobilecontainer" waterproof="true" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
+		<Item name="" identifier="backpack_light" scale="0.6" category="Equipment" subcategory="Coalition" tags="mediumitem,toolbelt,toolbox,mobilecontainer" waterproof="true" description="" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft">
 
 				<Sprite name="smolpaccground" texture="%ModDir%/Sprites/Items/Apparel/smolpacc.png" depth="0.6" sourcerect="117,68,80,49" origin="0.5,0.5" />
 				<InventoryIcon name="smolpaccinv" texture="%ModDir%/Sprites/Items/Apparel/smolpacc.png" sourcerect="122,5,61,61" origin="0.5,0.5" />
