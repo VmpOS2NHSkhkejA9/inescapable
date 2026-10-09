@@ -23,28 +23,28 @@
 
   <!--Modified Lynx from THG for the sakes of the thingy-->
 	<Item name="" identifier="enforcer_exoskeleton" category="Equipment" tags="mediumitem,clothing" cargocontaineridentifier="metalcrate" scale="0.45" fireproof="true" description="" allowdroppingonswapwith="diving" impactsoundtag="impact_metal_heavy" botpriority="4">
-		<InventoryIcon texture="%ModDir:2967303974%/exoskeleton_icon.png" sourcerect="0,0,96,96" origin="0.5,0.5" />
-		<Sprite name="Lynx Suit Item" texture="%ModDir:2967303974%/exoskeleton_items.png" sourcerect="0,0,157,121" depth="0.55" origin="0.5,0.5" />
-		<ContainedSprite name="Exoskeleton Suit In Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="%ModDir:2967303974%/armoredsuit_items.png" sourcerect="0,0,87,190" depth="0.55" origin="0.5,0.5" />
-		<ContainedSprite name="Exoskeleton Suit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir:2967303974%/armoredsuit.png" sourcerect="0,0,80,207" depth="0.55" origin="-0.12,-0.14" />
-		<ContainedSprite name="Exoskeleton Suit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir:2967303974%/armoredsuit_items.png" sourcerect="0,0,225,66" depth="0.55" origin="0.6,0.5" />
+		<InventoryIcon texture="%ModDir%/Sprites/Items/Apparel/exoskeleton_icon.png" sourcerect="0,0,96,96" origin="0.5,0.5" />
+		<Sprite name="Lynx Suit Item" texture="%ModDir%/Sprites/Items/Apparel/exoskeleton_items.png" sourcerect="0,0,157,121" depth="0.55" origin="0.5,0.5" />
+		<ContainedSprite name="Exoskeleton Suit In Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit_items.png" sourcerect="0,0,87,190" depth="0.55" origin="0.5,0.5" />
+		<ContainedSprite name="Exoskeleton Suit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" sourcerect="0,0,80,207" depth="0.55" origin="-0.12,-0.14" />
+		<ContainedSprite name="Exoskeleton Suit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit_items.png" sourcerect="0,0,225,66" depth="0.55" origin="0.6,0.5" />
 		<Body radius="45" width="34" density="20" />
 
 		<Wearable slots="Bag" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select" allowusewhenworn="true">
-			<sprite name="exoskeleton Torso" texture="%ModDir:2967303974%/exoskeleton.png" limb="Torso" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true">
+			<sprite name="exoskeleton Torso" texture="%ModDir%/Sprites/Items/Apparel/exoskeleton.png" limb="Torso" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true">
 				<LightComponent range="0" lightcolor="250,0,0,0" powerconsumption="10" IsOn="true" allowingameediting="false" offset="-50,-50">
 						<LightTexture texture="Content/Lights/divinghelmetlight.png" origin="0.05, 0.5" size="1.0,1.0" />
 				</LightComponent>
 			</sprite>
-			<sprite name="exoskeletonRight Lower Arm" texture="%ModDir:2967303974%/exoskeleton.png" limb="RightArm" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="exoskeletonLeft Lower Arm" texture="%ModDir:2967303974%/exoskeleton.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="exoskeletonRight Upper Arm" texture="%ModDir:2967303974%/exoskeleton.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="exoskeletonLeft Upper Arm" texture="%ModDir:2967303974%/exoskeleton.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="exoskeletonWaist" texture="%ModDir:2967303974%/exoskeleton.png" limb="Waist" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="exoskeletonRight Thigh" texture="%ModDir:2967303974%/exoskeleton.png" limb="RightThigh" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="exoskeletonLeft Thigh" texture="%ModDir:2967303974%/exoskeleton.png" limb="LeftThigh" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="exoskeletonRight Leg" texture="%ModDir:2967303974%/exoskeleton.png" limb="RightLeg" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-			<sprite name="exoskeletonLeft Leg" texture="%ModDir:2967303974%/exoskeleton.png" limb="LeftLeg" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="exoskeletonRight Lower Arm" texture="%ModDir%/Sprites/Items/Apparel/exoskeleton.png" limb="RightArm" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="exoskeletonLeft Lower Arm" texture="%ModDir%/Sprites/Items/Apparel/exoskeleton.png" limb="LeftArm" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="exoskeletonRight Upper Arm" texture="%ModDir%/Sprites/Items/Apparel/exoskeleton.png" limb="RightForearm" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="exoskeletonLeft Upper Arm" texture="%ModDir%/Sprites/Items/Apparel/exoskeleton.png" limb="LeftForearm" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="exoskeletonWaist" texture="%ModDir%/Sprites/Items/Apparel/exoskeleton.png" limb="Waist" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="exoskeletonRight Thigh" texture="%ModDir%/Sprites/Items/Apparel/exoskeleton.png" limb="RightThigh" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="exoskeletonLeft Thigh" texture="%ModDir%/Sprites/Items/Apparel/exoskeleton.png" limb="LeftThigh" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="exoskeletonRight Leg" texture="%ModDir%/Sprites/Items/Apparel/exoskeleton.png" limb="RightLeg" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+			<sprite name="exoskeletonLeft Leg" texture="%ModDir%/Sprites/Items/Apparel/exoskeleton.png" limb="LeftLeg" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
 			<StatusEffect type="OnWearing" target="Character,This" disabledeltatime="true" comparison="and" interval="1">
 				<Conditional enforcer_implant="lt 1" />
 				<Dropitem />
@@ -77,28 +77,28 @@
 		impactsoundtag="impact_metal_heavy"
 		health="100">
 
-			<InventoryIcon texture="%ModDir:2967303974%/armoredsuit_icon.png" sourcerect="0,0,92,92" origin="0.5,0.5" />
-			<Sprite name="Rhino Suit Item" texture="%ModDir:2967303974%/armoredsuit_items.png" sourcerect="0,0,157,121" depth="0.55" origin="0.5,0.5" />
-			<ContainedSprite name="Rhino Suit In Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="%ModDir:2967303974%/armoredsuit_items.png" sourcerect="164,0,87,190" depth="0.55" origin="0.5,0.5" />
-			<ContainedSprite name="Rhino Suit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir:2967303974%/armoredsuit.png" sourcerect="430,0,80,207" depth="0.55" origin="-0.12,-0.14" />
-			<ContainedSprite name="Rhino Suit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir:2967303974%/armoredsuit_items.png" sourcerect="0,191,225,66" depth="0.55" origin="0.6,0.5" />
+			<InventoryIcon texture="%ModDir%/Sprites/Items/Apparel/armoredsuit_icon.png" sourcerect="0,0,92,92" origin="0.5,0.5" />
+			<Sprite name="Rhino Suit Item" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit_items.png" sourcerect="0,0,157,121" depth="0.55" origin="0.5,0.5" />
+			<ContainedSprite name="Rhino Suit In Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit_items.png" sourcerect="164,0,87,190" depth="0.55" origin="0.5,0.5" />
+			<ContainedSprite name="Rhino Suit Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" sourcerect="430,0,80,207" depth="0.55" origin="-0.12,-0.14" />
+			<ContainedSprite name="Rhino Suit In Horizontal Locker" allowedcontainertags="divingsuitcontainerhorizontal" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit_items.png" sourcerect="0,191,225,66" depth="0.55" origin="0.6,0.5" />
 			<Body radius="45" width="34" density="20" />
 
 			<Wearable slots="OuterClothes" msg="ItemMsgEquipSelect" displaycontainedstatus="true" canbeselected="false" canbepicked="true" pickkey="Select">
-				<sprite name="rhino Torso" texture="%ModDir:2967303974%/armoredsuit.png" limb="Torso" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-				<sprite name="rhino Right Hand" texture="%ModDir:2967303974%/armoredsuit.png" limb="RightHand" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-				<sprite name="rhino Left Hand" texture="%ModDir:2967303974%/armoredsuit.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-				<sprite name="rhino Right Lower Arm" texture="%ModDir:2967303974%/armoredsuit.png" limb="RightArm" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-				<sprite name="rhino Left Lower Arm" texture="%ModDir:2967303974%/armoredsuit.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-				<sprite name="rhino Right Upper Arm" texture="%ModDir:2967303974%/armoredsuit.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-				<sprite name="rhino Left Upper Arm" texture="%ModDir:2967303974%/armoredsuit.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-				<sprite name="rhino Waist" texture="%ModDir:2967303974%/armoredsuit.png" limb="Waist" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-				<sprite name="rhino Right Thigh" texture="%ModDir:2967303974%/armoredsuit.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-				<sprite name="rhino Left Thigh" texture="%ModDir:2967303974%/armoredsuit.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-				<sprite name="rhino Right Leg" texture="%ModDir:2967303974%/armoredsuit.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-				<sprite name="rhino Left Leg" texture="%ModDir:2967303974%/armoredsuit.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-				<sprite name="rhino Left Shoe" texture="%ModDir:2967303974%/armoredsuit.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
-				<sprite name="rhino Right Shoe" texture="%ModDir:2967303974%/armoredsuit.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Torso" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" limb="Torso" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Right Hand" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" limb="RightHand" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Left Hand" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" limb="LeftHand" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Right Lower Arm" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" limb="RightArm" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Left Lower Arm" texture="%ModDir%/Sprites/Items/Apparel/armoreds	uit.png" limb="LeftArm" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Right Upper Arm" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" limb="RightForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Left Upper Arm" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" limb="LeftForearm" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Waist" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" limb="Waist" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Right Thigh" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" limb="RightThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Left Thigh" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" limb="LeftThigh" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Right Leg" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" limb="RightLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Left Leg" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" limb="LeftLeg" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Left Shoe" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" limb="LeftFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
+				<sprite name="rhino Right Shoe" texture="%ModDir%/Sprites/Items/Apparel/armoredsuit.png" limb="RightFoot" sound="footstep_armor_heavy" hidelimb="true" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
 				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="gunshotwound,bleeding" damagemultiplier="0.2" damagesound="LimbArmor" deflectprojectiles="true" />
 				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="bitewounds,lacerations" damagemultiplier="0.35" damagesound="LimbArmor" deflectprojectiles="true" />
 				<damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma" damagemultiplier="0.6" damagesound="" deflectprojectiles="true" />
