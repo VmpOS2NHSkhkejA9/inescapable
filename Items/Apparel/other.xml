@@ -59,7 +59,7 @@
 			<SlotIcon slotindex="0" texture="Content/UI/InventoryUIAtlas.png" sourcerect="565,333,64,64" origin="0.5,0.5" />
 			<SubContainer capacity="1" maxstacksize="1">
 				<Containable items="weapon" excludedtags="bulkyweapon,explosive" />
-				<SlotIcon slotindex="0" texture="%ModDir%/wpnicon.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+				<SlotIcon slotindex="0" texture="%ModDir%/Sprites/Misc/wpnicon.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
 			</SubContainer>
 		</ItemContainer>
 	</Item>
